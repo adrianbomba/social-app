@@ -1,0 +1,113 @@
+.LogIn {
+    position: relative;
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 768px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .LogIn h3 {
+    margin: 0 0 30px;
+    font-size: 26px;
+    color: yellow;
+  }
+  
+  .LogIn h3 .fas {
+    margin-right: 15px;
+    color: red;
+  }
+  
+  .LogIn form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .LogIn form label {
+    font-size: 18px;
+    color: red;
+  }
+  
+  .LogIn form input {
+    margin: 10px;
+    padding: 5px;
+    width: 250px;
+    color: red;
+    border: 2px solid black;
+    outline: 0;
+  }
+  
+  .LogIn form input[type="submit"],
+  .LogIn form .RedirectionToSignUp {
+    margin: 20px 0 0;
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: lightskyblue;
+    border: 2px solid lightskyblue;
+    cursor: pointer;
+    transition: color .3s, background-color .3s;
+  }
+  
+  .LogIn form input[type="submit"]:hover {
+    color: lightskyblue;
+    background-color: #fff;
+  }
+  
+  .LogIn form .RedirectionToSignUp {
+    margin: 0;
+    width: 126px;
+    color: #fff;
+    border: 2px solid darkcyan;
+    background-color: darkcyan;
+    text-decoration: none;
+  }
+  
+  .LogIn form .RedirectionToSignUp:hover {
+    color: darkcyan;
+    background-color: #fff;
+  }
+  
+  .LogIn form input:focus {
+    border: 2px solid lightskyblue;
+  }
+  
+  .LogIn form ul {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+  }
+  
+  .LogIn form li {
+    margin: 20px auto;
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .LogIn .Closer a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 22px;
+    color: darkcyan;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  
+  .LogIn .Closer a:hover {
+    color: lightskyblue;
+  }
+  
+  .LogIn form input.warning {
+    border: 2px solid darkred;
+  }
+  
+  .LogIn form input.accept {
+    border: 2px solid lightgreen;
+  }

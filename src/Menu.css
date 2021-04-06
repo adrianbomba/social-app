@@ -1,0 +1,35 @@
+  .Menu .Menu-list {
+    margin: 0 auto 200px;
+    padding: 0;
+    max-width: 768px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .Menu .Menu-list li {
+    padding: 20px 0;
+    text-align: center;
+    list-style: none;
+  }
+  
+  .Menu .Menu-list li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkcyan;
+    text-align: center;
+    text-decoration: none;
+    transition: color .3s;
+  }
+  
+  .Menu .Menu-list li a:hover {
+    color: yellow;
+  }
+  
+  .Menu .Menu-list li a .fas {
+    padding-bottom: 5px;
+    display: block;
+    font-size: 32px;
+    color: red;
+  }
+  
